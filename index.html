@@ -1,0 +1,25 @@
+<!--Sign up page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign up Page</h1>
+    <form action="http://localhost:5000/signup" method="POST">
+        <label for="firstname" name="firstname" >Firstname</label>
+        <input type="text"  name="firstname" placeholder="Enter your firstname"/>
+        <label for="lastname" name="lastname" >Lastname</label>
+        <input type="text"  name="lastname" placeholder="Enter your lastname"/>
+        <label for="username" name="username" >Username</label>
+        <input type="text"  name="username" placeholder="Enter your username"/>
+        <label for="password" name="password" >Password</label>
+        <input type="password"  name="password" placeholder="Enter your password"/>
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="http://localhost:3000/login.html">Login</a></p>
+    </form>
+</body>
+</html>
